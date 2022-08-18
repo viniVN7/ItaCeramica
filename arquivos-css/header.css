@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  position: relative;
+  box-shadow: 1px 3px aqua;
+}
+
+header .flex-container-header {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+header .flex-item-left-header {
+  padding: 5px;
+  flex: 10%;
+  justify-content: center;
+  height: 100%;
+}
+
+header .flex-item-right-header {
+  padding: 5px;
+  flex: 10%;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+
+  header .flex-item-right-header,
+  .flex-item-left-header {
+    flex: 100%;
+  }
+}
+
+header .flex-container-header a {
+      list-style: none;
+      font-weight: bold;
+      position: relative;
+      padding: 1.5rem 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+}
+
+header .flex-container-header a::after {
+  content: "";
+  width: 0;
+  height: 0.3rem;
+  border-radius: radius;
+  position: absolute;
+  left: 1rem;
+  bottom: 0.8rem;
+  background-color: aqua;
+  transition: width 200ms ease-in;
+}
+
+header .flex-container-header a:hover::after,
+header .flex-container-header a:focus::after {
+  width: 80%;
+}

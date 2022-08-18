@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/arquivos-css/header.css">
+    <link rel="stylesheet" href="/arquivos-css/footer.css">
+    <link rel="icon" type="image/x-icon" href="/imagens/favicon/Logotipo-Vermelho-Mecânico-Vintage.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/arquivos-css/produtos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/scripts/jqueryScript.js"></script>
+    <script src="/scripts/modalImg.js"></script>
+    <title>Telha</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="flex-container-header">
+            <div class="flex-item-left-header ">
+                <img src="/imagens/logo/logo-itaceramicas.png" alt="" width="200">
+            </div>
+            <div class="flex-item-right-header ">
+                <a href="#">Início</a>
+            </div>
+            <div class="flex-item-right-header ">
+                <a href="#">Materiais</a>
+            </div>
+            <div class="flex-item-right-header">
+                <a href="#">Dicas</a>
+            </div>
+            <div class="flex-item-right-header ">
+                <a href="#">Ofertas</a>
+            </div>
+            <div class="flex-item-right-header">
+                <a href="#"><i class=" fa fad fa-shopping-cart" style="font-size:40px;"></i></a>
+            </div>
+            <div class="flex-item-right-header">
+                <a href="#"><i class=" fa fa-solid fa-user" style="font-size:40px;"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="flex-container-prod">
+        <div class="flex-item-left-prod">
+            <img id="myImg" src="/imagens/produtos/telha_ceramica.jpeg" alt="Snow" style="width:100%;max-width:300px"
+                height="100%">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
+        <div class="flex-item-right-prod">
+            <h2>Telha em Cerâmica 40,2x24,3cm</h2>
+            <div class="info">
+                <h4><s>De R$ 1,55</s></h4>
+                <h4>Por <b>R$ 1,19</b></h4>
+                <h4><b>Avaliação:</b>
+                    <i id="star" class="fa fa-light fa-star"></i>
+                    <i id="star" class="fa fa-light fa-star"></i>
+                    <i id="star" class="fa fa-light fa-star"></i>
+                    <i id="star" class="fa fa-light fa-star"></i>
+                    <i id="star" class="fa fa-light fa-star"></i>
+                </h4>
+                <h4><b>Quantidade mínima de compra:</b> 1 unidade (uma unidade)</h4>
+                <button class="btn-buy">Comprar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="flip">
+        <b>Mais informações</b>
+        <i class="fa fa-solid fa-plus"></i>
+    </div>
+    <div id="panel">A Telha em Cerâmica 40,2x24,3cm é perfeita para qualquer tipo de construção.
+        Esta telha apresenta uma tonalidade vermelha e, é produzida a partir da cerâmica.
+        A Telha em Cerâmica 40,2x24,3cmapresenta uma incrível resistência.
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="/paginas/empresa.html">Quem somos</a></li>
+                        <li><a href="">Nossos produtos</a></li>
+                        <li><a href="">Política de privacidade</a></li>
+                        <li><a href="">Outros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Obter ajuda</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Entrega</a></li>
+                        <li><a href="">Opções de pagamento</a></li>
+                        <li><a href="">Endereço</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Produtos</h4>
+                    <ul>
+                        <li><a href="">Obra-prima</a></li>
+                        <li><a href="">Qualidade</a></li>
+                        <li><a href="">Processo</a></li>
+                        <li><a href="">Novidades</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Redes sociais e contatos</h4>
+                    <div class="social-networks">
+                        <a href=""><i class="fa fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>
